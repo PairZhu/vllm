@@ -3,16 +3,13 @@
 #
 # Usage:
 #    # Do work and commit your work.
-
 #    # Format files that differ from origin/main.
 #    bash format.sh
-
 #    # Commit changed files with message 'Run yapf and ruff'
 #
 #
 # YAPF + Clang formatter (if installed). This script formats all changed files from the last mergebase.
 # You are encouraged to run this locally before pushing changes for review.
-
 # Cause the script to exit if a single command fails
 set -eo pipefail
 
